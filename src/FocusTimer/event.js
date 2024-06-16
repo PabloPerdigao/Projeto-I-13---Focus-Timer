@@ -1,1 +1,3 @@
-export function '.'
+export function registerControl() { 
+  console.log('regiser')
+}

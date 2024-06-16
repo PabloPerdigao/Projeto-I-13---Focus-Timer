@@ -1,6 +1,8 @@
-import {controls} from "./elements.js"
+import { controls } from "./elements.js";
 
 
-export function registerControl() { 
-  
+export function registerControls() { 
+  controls.addEventListener('click', (event) => {
+    
+  })
 }

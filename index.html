@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br" class="light">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,8 +7,8 @@
   <title>Focus Timer</title>
 
   <link rel="shortcut icon" href="./assets/favicon.svg" type="image/x-svg">
-  <link rel="stylesheet" href="style.css">
   <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  <link rel="stylesheet" href="style.css">
   <script type="module" src="./src/main.js" defer></script>
 </head>
 <body>
@@ -20,7 +20,7 @@
       </button>
 
     <section id="timer" class="flex">
-      <span id="minutes">00</span>
+      <span id="minutes">25</span>
       <span>:</span>
       <span id="seconds">00</span>
     </section>
@@ -29,7 +29,7 @@
       <button 
         data-action="toggleRunning"
         class="ph ph-play-circle">
-        <span class="sr-only">Inicar contagem do cronometro</span>
+          <span class="sr-only">Inicar contagem do cronômetro</span>
       </button>
 
       <button
@@ -41,7 +41,7 @@
       <button 
         data-action="set"
         class="ph ph-timer secondary">
-        <span class="sr-only">Ajustar contagem do cronometro</span>
+        <span class="sr-only">Ajustar contagem do cronômetro</span>
       </button>
 
       <button 

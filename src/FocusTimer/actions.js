@@ -1,7 +1,7 @@
-import stae from './state.js'
+import state from './state.js'
 
-export function togglerunning() {
-
+export function toggleRunning() {
+  state.isRunning = document.documentElement.classList.toggle('running')
 }
 
 export function set() {

@@ -8,7 +8,7 @@ buttonToggle.addEventListener('click', (event) => {
   const mode = darkMode ? 'light' : 'dark'
 
   event.currentTarget
-    .querySelector('span').textContent = `${mode} modo ativado!`
+    .querySelector('span').textContent = `${mode} mode ativado!`
 
   darkMode = !darkMode
 })

@@ -12,3 +12,7 @@ export function reset() {
 export function set() {
 
 }
+
+export function toggleMusic() {
+  document.isMute = document.documentElement.classList.toggle('music-on')
+}

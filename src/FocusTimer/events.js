@@ -1,4 +1,4 @@
-import { controls } from "./elements.js";
+import { controls } from './elements.js'
 import * as actions from './actions.js'
 
 export function registerControls() { 

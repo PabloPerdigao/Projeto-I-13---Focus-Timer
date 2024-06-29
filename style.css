@@ -8,24 +8,24 @@
 /* Variáveis */
 :root {
   --hue:194; /* 2x clique no nº e ctrl + d para modificar tds*/
-  --bg-color:hsl(var(--hue), 100%, 7%);
-  --text-color: hsl(var(--hue), 40%, 98%, 1);
+  --bg-color:hsl(var(--hue), 5%, 7%);
+  --text-color: hsl(var(--hue), 40%, 98%);
   --primary-color:hsl(var(--hue), 100%, 63%);
   --controls-bg-color:hsl(var(--hue), 0%, 14%);
-  --button-secondary:hsl(var(--hue), 100%, 7%);
+  --button-secondary:hsl(var(--hue), 40%, 98%);
   
-  font-size:clamp(40%, 1% + 2vw, 62.5%);
+  font-size: clamp(40%, 1% + 2vw, 62.5%);
 }
 
 html.light {
-  --bg-color: hsl(var(--hue), 40%, 98%);
   --text-color:hsl(var(--hue), 5%, 7%);
-  --controls-bg-color:hsl(var(--hue), 0%, 14%);
+  --bg-color: hsl(var(--hue), 40%, 98%);
+  --controls-bg-color: hsl(var(--hue), 0%, 14%);
 }
 
 html.light .ph-sun,
 html:not(.light) .ph-moon {
-  display: none;
+    display: none;
 }
 
 #toggle-mode {
@@ -54,6 +54,7 @@ html:not(.light) .ph-moon {
 body {
   background-color: var(--bg-color);
   color: var(--text-color);
+  
   display: grid;
   height: 100vh;
   place-content: center;
@@ -78,8 +79,8 @@ body {
   margin-top: 1.6rem;
   padding: 2.2rem 4rem;
   gap: 1.6rem;
-  background-color: var(--controls--bg-color);
-  border: radius 999rem;
+  background-color: var(--controls-bg-color);
+  border-radius: 999rem;
 }
 
 button {

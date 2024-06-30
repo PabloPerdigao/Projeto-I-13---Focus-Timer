@@ -5,7 +5,8 @@ import { kichenTimer } from './sounds.js'
 
 
 export function countDown() {
-  clearTimeout(state.countdownId)
+clearTimeout(state.countdownId)
+
   if(!state.isRunning) {
     return
   }
@@ -35,7 +36,7 @@ export function countDown() {
 
     updateDisplay(minutes, seconds)
     
-    state.countdownID = setTimeout(() => countDown(), 1000)
+    state.countdownId = setTimeout(() => countDown(), 1000)
 
     /* 
       recursão - função que é chamada de volta e que necessita de um parâmentro a ser determinada para parar a mesma em determinado momento

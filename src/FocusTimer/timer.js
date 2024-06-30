@@ -34,7 +34,7 @@ export function countDown() {
     setTimeout(() => countDown(), 1000)
 
     /* 
-      recursão - função que é chamada de volta e que necessita de um parâmentro a ser determinada para parar  a mesma em determinado momento
+      recursão - função que é chamada de volta e que necessita de um parâmentro a ser determinada para parar a mesma em determinado momento
       setTimeout - função callback ( função determinada em outro momento, podendo ser posteriormente chamada )
     */
 }

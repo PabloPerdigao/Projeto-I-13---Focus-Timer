@@ -12,3 +12,7 @@ export function start(minutes, seconds) {
 
 }
 
+/* habilitar personalização dos segundos
+    events.setSeconds()
+*/
+

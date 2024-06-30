@@ -17,8 +17,14 @@ export function reset() {
 export function set() {
   el.minutes.setAttribute('contenteditable', true)
   el.minutes.focus()
-  
 }
+
+/* habilitar personalização dos segundos
+  export function set() {
+    el.seconds.setAttribute('contenteditable', true)
+    el.seconds.focus() 
+  }
+*/
 
 export function toggleMusic() {
   document.isMute = document.documentElement.classList.toggle('music-on')
